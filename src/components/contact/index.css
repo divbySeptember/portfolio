@@ -1,0 +1,26 @@
+.contactMe {
+    display: flex;
+    justify-content: space-evenly;
+    
+    padding: 10% 8%; 
+    border-top: dashed 2px rgb(197, 197, 197);
+    border-bottom: dashed 2px rgb(197, 197, 197); 
+}
+
+
+.contactText {
+    width: 500px;
+}
+
+.btn {
+    background: rgb(231, 114, 4);
+    color: white;
+    border: none;
+}
+
+.btn:hover {
+    background: rgb(187, 91, 1);
+}
+.btn::selection {
+    background: rgb(187, 91, 1);
+}

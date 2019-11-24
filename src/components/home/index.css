@@ -1,0 +1,46 @@
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0;
+    margin-bottom: 50px;
+    border-top: dashed 2px rgb(197, 197, 197);
+    border-bottom: dashed 2px rgb(197, 197, 197);
+
+}
+img{
+    width: 500px;
+    height: auto;
+}
+
+.atag{
+    text-decoration: none;
+}
+
+.atag:active {
+    text-decoration: none;
+    border: none;
+}
+
+
+.resume {
+    background: none;
+    border: solid 2px rgb(231, 114, 4);
+    padding: 20px 40px;
+    color: rgb(231, 114, 4);
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.resume:hover{
+    color: white;
+    background: rgb(231, 114, 4);
+}
+.resume:active {
+    border: none;
+}
+
+
+.heropar {
+    margin-bottom: 50px;
+}
+
