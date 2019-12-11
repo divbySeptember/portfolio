@@ -7,7 +7,7 @@ const Contact = () => {
 
 
 
-    const handlesubmit = (e) => {
+    const handleSubmit = e => {
         e.preventDefault()
     }
 
