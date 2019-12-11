@@ -9,7 +9,7 @@ const Contact = () => {
             <img src={Contacts} />
             <div className='contactText'>
                 <h1 className='newHeader'> ~ Contact<span className='folio'>Me</span> ~</h1>
-                <Form>
+                <Form netlify>
                 <Form.Group controlId="formBasicEmail">
                    
                     <Form.Control type="email" placeholder="Enter email" />
