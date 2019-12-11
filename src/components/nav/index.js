@@ -30,9 +30,9 @@ const Nav = () => {
             </li>
             |
             <li>
-              <i class="fab fa-github"></i>
-              <i class="fab fa-twitter"></i>
-              <i class="fab fa-linkedin"></i>
+              <a href="http://www.github.com/divbyseptember"><i className="navIcon" class="fab fa-github"></i></a>
+              <a href="http://www.twitter.com/anthony_dev1"><i className="navIcon" class="fab fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/in/anthonydev1/"><i className="navIcon" class="fab fa-linkedin"></i></a>
             </li>
            
         </ul>                                   

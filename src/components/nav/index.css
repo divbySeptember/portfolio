@@ -20,3 +20,48 @@ ul {
   .item{
       color: #000;
   }
+
+
+.fa-github {
+    font-size: 23px;
+    margin: 0 10px;
+    color: rgb(231, 114, 4);
+    cursor: pointer;
+    border: none;
+
+}
+
+
+.fa-github:hover {
+    
+    color: rgb(99, 99, 99);
+}
+
+.fa-twitter {
+    font-size: 23px;
+    margin: 0 10px;
+    color: rgb(231, 114, 4);
+    cursor: pointer;
+    border: none;
+
+}
+
+.fa-twitter:hover {
+    
+    color: rgb(99, 99, 99);
+}
+
+
+.fa-linkedin {
+    font-size: 23px;
+    margin: 0 10px;
+    color: rgb(231, 114, 4);
+    cursor: pointer;
+    border: none;
+}
+
+
+.fa-linkedin:hover {
+    
+    color: rgb(99, 99, 99);
+}

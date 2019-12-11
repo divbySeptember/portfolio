@@ -43,17 +43,20 @@
 }
 
 
+.newBtn {
+    padding: 5px 40px;
+    margin: 0 20px;
+    
+    
+
+}
 
 .portIcon {
-    margin: 20px 20px;
+    
     font-size: 25px;
     color: rgb(231, 114, 4);
     cursor: pointer; 
 }
 
-.portIcon:hover {
-    
-    color: rgb(68, 68, 68);
-    
-}
+
 

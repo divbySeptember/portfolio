@@ -5,6 +5,13 @@ import BGPMAC from '../../img/bgpmac.png'
 
 
 const BGP = () =>{
+
+
+    // const bgpHub = () => {
+        
+    //     {location.href="http://www.github.com"}
+    // }
+    
     return(
         <div>
             <div className='projectHero'>
@@ -13,11 +20,11 @@ const BGP = () =>{
             <div className='projectInfo'>
                 <img src={BGPMAC} className='wunderProject' />
                 <div className='projectContent'>
-                    <p className='projectText'>Morbi nec ipsum eu urna sagittis imperdiet ut eget urna. Proin ac aliquam leo. Mauris et pretium nisl, at varius augue. Ut at pulvinar est, non faucibus velit. Vivamus sagittis, lorem et tempus dignissim, dui massa consectetur diam, at lobortis metus mauris at ante. Vivamus sodales nibh quis sodales tincidunt. Aliquam venenatis consequat lectus, nec lobortis nulla venenatis ac. Phasellus eu odio tincidunt, aliquam purus vitae, fermentum lorem. Suspendisse vitae sem quis nunc luctus suscipit. Integer pharetra, risus eu iaculis vestibulum, felis dui auctor erat, id vulputate magna nisi eu libero. Morbi elementum nunc eu nisl placerat tristique. Proin mi eros, maximus vel luctus a, mattis ac nunc. Nulla pharetra, ipsum quis faucibus porta, velit arcu blandit sem, a lacinia nisi eros nec augue. Vivamus et dui eget ipsum euismod vestibulum. Integer tincidunt purus ut arcu tincidunt, nec aliquet purus ornare.</p>
+                    <p className='projectText'>Baseball Game Predictor is a user base product that is focused on users being able to predict the outcome of a base baseball game. There was a full stack team working this project in a agile enviorment, including daily stand up meetings as well as afternoon meetings. Our DS team handled all of the algorithm & data structure in Python, and Me and my web dev team flushed out the app using Node. js on the backned, react & redux on the frontend along with react router & metiral UI,  Feel free to view the work in progress below. </p>
                     <div className='projectIcons'>
                         
-                        <i  class="fab portIcon fa-github"></i>
-                        <i  class="fas portIcon fa-globe"></i> 
+                        <a href="https://github.com/Lambda-School-Labs/baseball-game-prediction-fe"><button className="newBtn" type="button"><i  class="fab portIcon fa-github"/></button></a>
+                        <a href="http://www.baseballgamepredictor.com"><button className="newBtn"><i  class="fas portIcon fa-globe" /></button></a>
 
                     </div>
                 </div>

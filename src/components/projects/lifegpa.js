@@ -13,11 +13,12 @@ const LifeGPA = () =>{
             <div className='projectInfo'>
                 <img src={LifeGPAMAC} className='wunderProject' />
                 <div className='projectContent'>
-                    <p className='projectText'>Morbi nec ipsum eu urna sagittis imperdiet ut eget urna. Proin ac aliquam leo. Mauris et pretium nisl, at varius augue. Ut at pulvinar est, non faucibus velit. Vivamus sagittis, lorem et tempus dignissim, dui massa consectetur diam, at lobortis metus mauris at ante. Vivamus sodales nibh quis sodales tincidunt. Aliquam venenatis consequat lectus, nec lobortis nulla venenatis ac. Phasellus eu odio tincidunt, aliquam purus vitae, fermentum lorem. Suspendisse vitae sem quis nunc luctus suscipit. Integer pharetra, risus eu iaculis vestibulum, felis dui auctor erat, id vulputate magna nisi eu libero. Morbi elementum nunc eu nisl placerat tristique. Proin mi eros, maximus vel luctus a, mattis ac nunc. Nulla pharetra, ipsum quis faucibus porta, velit arcu blandit sem, a lacinia nisi eros nec augue. Vivamus et dui eget ipsum euismod vestibulum. Integer tincidunt purus ut arcu tincidunt, nec aliquet purus ornare.</p>
+                    <p className='projectText'>There are so many productivity and habit tracking apps out there to measure progress in one area or another, but nothing that measures your overall life with a single metric. Until now. Meet LifeGPA. An app designed to summarize your life’s most important efforts into a simple composite number.
+Users create an account, log in, and tell the app a list of habits they want to track. There are both prompts to add habits to your list, and spots to write your own.</p>
                     <div className='projectIcons'>
                         
-                        <i  class="fab portIcon fa-github"></i>
-                        <i  class="fas portIcon fa-globe"></i> 
+                        <a href="https://github.com/lambdaschool-lifegpa"><button className="newBtn" type="button"><i  class="fab portIcon fa-github"/></button></a>
+                        <a href="https://lifegpa-abdulkarim.netlify.com/"><button className="newBtn"><i  class="fas portIcon fa-globe" /></button></a>
 
                     </div>
                 </div>

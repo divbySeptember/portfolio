@@ -23,19 +23,19 @@ const Portfolio = (props) => {
                         link="/wunderlist"
                         image={wl}
                         title="Wunder List 2.0"
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In malesuada tempor purus, a tincidunt dui luctus ac. Duis purus leo, viverra a dolor ut, posuere ornare sem."
+                        description="WunderList 2.0 is a user base Todo App that helps user plan and create daily habbits. With WL 2.0  you can create a account add todo items."
                     />
                     <Thumbnail
                         link="/lifegpa"
                         image={lg}
                         title="Life gpa"
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In malesuada tempor purus, a tincidunt dui luctus ac. Duis purus leo, viverra a dolor ut, posuere ornare sem."
+                        description="Life GPA is habit tracking apps out there to measure progress in one area or another, nothing that measures overall life with a single metric. "
                     />
                     <Thumbnail
                         link="/bgp"
                         image={bgp}
                         title="Baseball Game Predictor"
-                        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In malesuada tempor purus, a tincidunt dui luctus ac. Duis purus leo, viverra a dolor ut, posuere ornare sem."
+                        description="Baseball Game Predictor is a user base product that is focused on users being able to predict the outcome of a base baseball game"
                     />
                     {/* <Thumbnail
                         link="/clarify"

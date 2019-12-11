@@ -12,11 +12,11 @@ const WunderList = () =>{
             <div className='projectInfo'>
                 <img src={NewWunderList} className='wunderProject' />
                 <div className='projectContent'>
-                    <p className='projectText'>Morbi nec ipsum eu urna sagittis imperdiet ut eget urna. Proin ac aliquam leo. Mauris et pretium nisl, at varius augue. Ut at pulvinar est, non faucibus velit. Vivamus sagittis, lorem et tempus dignissim, dui massa consectetur diam, at lobortis metus mauris at ante. Vivamus sodales nibh quis sodales tincidunt. Aliquam venenatis consequat lectus, nec lobortis nulla venenatis ac. Phasellus eu odio tincidunt, aliquam purus vitae, fermentum lorem. Suspendisse vitae sem quis nunc luctus suscipit. Integer pharetra, risus eu iaculis vestibulum, felis dui auctor erat, id vulputate magna nisi eu libero. Morbi elementum nunc eu nisl placerat tristique. Proin mi eros, maximus vel luctus a, mattis ac nunc. Nulla pharetra, ipsum quis faucibus porta, velit arcu blandit sem, a lacinia nisi eros nec augue. Vivamus et dui eget ipsum euismod vestibulum. Integer tincidunt purus ut arcu tincidunt, nec aliquet purus ornare.</p>
+                    <p className='projectText'>WunderList 2.0 is a user base Todo App that helps user plan and create daily habbits. With WL 2.0  you can create a account add todo items and set a date/repeat date and maak a item as done. the stack for the project is Node.js, Express. js, SQLITE3, React.js, Redux, React-Router, React-cookies.</p>
                     <div className='projectIcons'>
                         
-                        <i  class="fab portIcon fa-github"></i>
-                        <i  class="fas portIcon fa-globe"></i> 
+                        <a href="https://github.com/bw-wunderlist"><button className="newBtn" type="button"><i  class="fab portIcon fa-github"/></button></a>
+                        <a href="https://wunderlist24.netlify.com/"><button className="newBtn"><i  class="fas portIcon fa-globe" /></button></a>
 
                     </div>
                 </div>
